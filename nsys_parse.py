@@ -29,7 +29,7 @@ for data in data_list:
             end_time = data[1]
     finish_time = data[1]
 
-print("Kernel Run Time: ", run_time)
-print("CPU Overhead Time: ", cpu_overhead)
-print("Sum of calculated Kernel and CPU overhead: ", run_time+cpu_overhead)
-print("Runtime from profile: ", (finish_time-start_time)/1000)
+print("Kernel Run Time (us): ", run_time)
+print("CPU Overhead Time (us): ", cpu_overhead)
+print("Sum of calculated Kernel and CPU overhead (us): ", run_time+cpu_overhead)
+print("Runtime from profile (us): ", (finish_time-start_time)/1000)
